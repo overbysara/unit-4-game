@@ -83,7 +83,7 @@ alert ("You didn't make it! You lose!");
           loser();
         } 
   })  
-  $('.trilo').on ('click', function(){
+  $('.plant').on ('click', function(){
     playerTotal = playerTotal + num4;
     console.log("New playerTotal= " + playerTotal);
     $('#totalScore').text(playerTotal); 
