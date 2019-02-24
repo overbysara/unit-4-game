@@ -33,6 +33,7 @@ function reset(){
       playerTotal= 0;
       $('#totalScore').text(playerTotal);
       } 
+      
 // Display wins
 function woohoo(){
 alert("You escaped the jungle! You won!");
